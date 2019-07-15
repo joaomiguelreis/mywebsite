@@ -150,12 +150,22 @@ body, html {
   <h3 class="w3-center">MY PROJECTS</h3>
   <p class="w3-center"><em> The main project I am currently working on is PhD project. I am also involved in a side project on the MiND. The best way to understand my PhD project is by watching this video. The MiND project is explained here.
 
-    Now that you've watched me slicing cubes into smaller cubes (if you don't know what I'm talking about please watch the video) you hopefully can tell that my work involves big computers, airplanes and algorithms. The reality is that I usually only work with the latter. Yes! I do algorithms, but I tend to work with very simple models, rather than airplanes, and usually my laptop all I need to run my test problems. 
+    Now that you've watched me slicing cubes into smaller cubes (if you don't know what I'm talking about please watch the video) you hopefully can tell that my work involves big computers, airplanes and algorithms. The reality is that I usually only work with the latter. Yes! I do algorithms, but I tend to work with very simple models, rather than airplanes, and usually my laptop all I need to run my test problems. Here's the simple test problem I'm currently trying to parallelise.
+    <div id="gifdiv">
+    <img src="additive_achwarz_method.gif" />
+      </div>
+      <script type="text/javascript">
+        $("#gifdiv").click(function () {
+          if ($(this).find("img").attr("data-state") == "static") {
+            $(this).find("img").attr("src", "animatedgif.gif");
+          } else {
+            $(this).find("img").attr("src", "staticgif.jpg");
+          }
+        });
+      </script>
 
-    New line.
 
-
-</div>
+      </div>
 
 <!-- Container (Portfolio Section) -->
 
@@ -163,8 +173,8 @@ body, html {
   <h3 class="w3-center">Ongoing projects</h3>
   <p class="w3-center"><em>
     <ul> I am evevolved in 2 main projects at the moment. Shoot me an email for more information
-      <li> Accelerated Domain Decompositions methods for Uncertainty Quatification; </li>
-      <li> MiND project: Real-time Management of On-board Ice Protection Systems bymeans of Machine Learning.</li>
+      <li> Accelerated Domain Decompositions methods for Uncertainty Quantification; </li>
+      <li> MiND project: Real-time Management of On-board Ice Protection Systems by means of Machine Learning.</li>
       <!-- <li> This is a link to a jupyter notebook <a href="https://github.com/joaomiguelreis/MonteCarlo">HTML Images</a> </li> -->
     </ul>
 </div>
@@ -193,7 +203,7 @@ body, html {
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">
-          <a href="https://www.flickr.com/photos/158990234@N08/" target="_blank" > Photograhy Project </a>
+          <a href="https://www.flickr.com/photos/158990234@N08/" target="_blank" > Photography Project </a>
         </div>
         <img src="eiffel_hangging.jpg" alt="House" style="width:100%">
       </div>
